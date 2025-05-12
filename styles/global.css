@@ -39,3 +39,7 @@
     --heading3: 20px/120% bold var(--font-family);
     --heading4: 16px/120% bold var(--font-family);
 }
+
+body {
+    font-family: var(--font-family);
+}
