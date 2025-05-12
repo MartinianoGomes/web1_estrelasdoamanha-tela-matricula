@@ -13,3 +13,6 @@ No arquivo index.html, o arquivo CSS será importado da seguinte forma:
 @import url(header.css);
 @import url(main.css);
 @import url(footer.css);
+@import url(left.css);
+@import url(right.css);
+@import url(form.css);
