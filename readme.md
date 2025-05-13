@@ -12,6 +12,10 @@ Desenvolva um formulário de matrícula seguindo o modelo apresentado no figma. 
 - Seletores 
 - HTML Forms
 
+### Resolução
+
+A resolução utilizada para a atividade foi 1280x768.
+
 ## Links úteis
 
 [Atividade - PDF](https://sigaa.unifesspa.edu.br/sigaa/verFoto?idArquivo=951363&key=353d6ccee81fee2858c0ed6885d23bd1)
