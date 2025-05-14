@@ -29,6 +29,10 @@
     height: 24px;
 }
 
+.header-text {
+    width: 100%;
+}
+
 .header-text h1 {
     height: 30px;
     font-family: 'Poppins', sans-serif;
