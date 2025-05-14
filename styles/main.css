@@ -112,6 +112,8 @@ select {
 
 .informacoes-medicas textarea:focus {
     box-shadow: 0px 0px 5px var(--stroke-highlight);
+    border: 1px solid var(--stroke-default);
+    outline: none;
 }
 
 .upload-arquivo {
@@ -150,7 +152,6 @@ select {
 }
 
 .endereco {
-    width: 528px;
     margin-bottom: 40px;
 }
 
@@ -164,6 +165,10 @@ select {
     display: flex;
     gap: 16px;
     margin-bottom: 16px;
+}
+
+.labao {
+    width: 100%;
 }
 
 .endereco label {
@@ -189,11 +194,6 @@ select {
     background: var(--surface-disabled);
 }
 
-.endereco .linha label:nth-child(2),
-.endereco .linha label:nth-child(2) {
-    flex: 0 0 120px;
-}
-
 .endereco > label:first-of-type {
     margin-bottom: 16px;
 }
@@ -205,7 +205,6 @@ select {
 }
 
 .form-section {
-    width: 528px;
     margin-bottom: 40px;
 }
 
@@ -228,11 +227,26 @@ input:invalid + .error-message {
     display: block;
 }
 
-.option-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.option-flex {
+    display: flex;
     gap: 12px;
     margin: 16px 0 24px;
+}
+
+.card-option-1 {
+    width: 256px;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-option-2 {
+    width: 256px;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-option {
@@ -245,6 +259,20 @@ input:invalid + .error-message {
     gap: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+
+.option-flex2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+}
+
+.card-option-2 {
+    width: 120px;
+    height: 128px;
+    justify-content: center;
 }
 
 .card-option:hover {
@@ -272,7 +300,6 @@ input:invalid + .error-message {
 }
 
 .termos {
-    width: 528px;
     margin-top: 24px;
 }
 

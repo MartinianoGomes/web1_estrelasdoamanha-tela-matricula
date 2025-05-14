@@ -30,11 +30,10 @@
 }
 
 .header-text {
-    width: 528px;
+    width: 100%;
 }
 
 .header-text h1 {
-    width: 528px;
     height: 30px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -45,7 +44,6 @@
 }
 
 .header-text p {
-    width: 528px;
     height: 48px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
