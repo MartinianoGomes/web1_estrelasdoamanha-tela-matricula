@@ -18,7 +18,7 @@ A resolução utilizada para a atividade foi 1280x768.
 
 ### Equipe
 
-Martiniano Gomes & Marcus Coelho.
+Martiniano Gomes & Michelangelo Costa.
 
 ## Links úteis
 
